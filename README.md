@@ -6,7 +6,7 @@ The idea is to show simplest (not optimal) way to test a new ISPC implementation
 
 You had the `run_simple` application and simple module written in C, `simple.c`. 
 
-Then you wanted to build ISPC implementation `run_simple_ispc` .
+Then you wanted to build ISPC implementation `run_simple_ispc` using ISPC implementation, `simple.ispc`.
 
 And after that you wanted to test them both in `test_simple`, no matter you had the tests or not.
 
