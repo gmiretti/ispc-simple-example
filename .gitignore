@@ -1,0 +1,6 @@
+.depend
+*.o
+run_simple
+test_simple
+*_ispc.h
+run_simple_ispc
