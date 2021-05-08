@@ -30,7 +30,7 @@ test_simple: $(OBJECTS) $(TEST_OBJECTS) test_simple.o
 	$(CC) $(COMMONFLAGS) $(CFLAGS) $(WFLAGS) $(PARAMFLAGS)  -c $<
 
 clean:
-	rm -f $(TARGETS) *.o .depend
+	rm -f $(TARGETS) *.o .depend *_ispc.h
 
 # .depend: $(SOURCES)
 # 	$(CC) -MM $^ > $@
